@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Tp2-distributed-System:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Tp2-distributed-System</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Tp2-distributed-System-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Tp2-distributed-System:war exploded" />
+    </root>
+  </artifact>
+</component>
