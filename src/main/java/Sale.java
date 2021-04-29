@@ -10,16 +10,20 @@ public class Sale {
     double amt;
     String region;
     double cost;
+public Sale(){
 
+}
     public Sale(java.sql.Date date, String product, double tax, double total, int qty, double amt, String region, double cost) {
         this.date = date;
         Product = product;
-        this.tax = tax;
-        this.total = total;
-        this.qty = qty;
-        this.amt = amt;
         this.region = region;
         this.cost = cost;
+        this.tax = tax;
+        this.qty = qty;
+
+        this.total = total;
+        this.amt = amt;
+
     }
 
     public java.sql.Date getDate() {

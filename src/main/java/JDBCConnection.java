@@ -3,7 +3,6 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
 
-import org.json.simple.JSONObject;
 import java.io.IOException;
 import java.sql.*;
 import java.util.concurrent.TimeoutException;
@@ -35,8 +34,6 @@ public class JDBCConnection {
             conn = DriverManager.getConnection(this.DB_URL, USER, PASS);
             System.out.println("Connected database successfully...");
     }
-
-
 
 
     public void queryexec(Sale sale, PreparedStatement ps) throws SQLException {
